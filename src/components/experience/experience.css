@@ -1,0 +1,22 @@
+
+/* experience.css */
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 40%;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  
+  .exp {
+    margin: 20px 0;
+  }
+
+  .cards {
+    display: flex;
+    justify-content:center; /* Adjusts space between cards, use 'center' or 'flex-start' as needed */
+  }
+  
+  

@@ -1,0 +1,35 @@
+/* Card.css */
+.card {
+    border: 1px solid #595757;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    background-color: rgb(40, 40, 40);
+  }
+  
+  .card-body {
+    
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .card-content {
+    font-size: 1em;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cardlogo{
+    width: fit-content;
+    height: 4rem;
+    align-items: center;
+}
+  

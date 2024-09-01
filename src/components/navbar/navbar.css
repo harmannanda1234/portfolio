@@ -1,0 +1,73 @@
+.navbar{
+    background: rgb(29, 31, 32)  ;
+    border-radius: 1rem ;
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    max-width: 90rem;
+    font-family: IBM Plex Sans Condensed;
+}
+
+/* .logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 5rem;
+} */
+.deskMenuItem{
+    margin: 1rem;
+    cursor: pointer;  
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.5rem;
+    word-spacing: 1rem;
+}
+
+.deskMenuItem:hover{
+    color: gold;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid gold;
+}
+.deskMenuBtn{
+    background: white;
+    padding: 0 1.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-family: Poppins;
+}
+.deskMenuBtn:hover{
+    background-color: transparent;
+    border: 3px solid rgb(255, 238, 0);
+    color: rgb(249, 253, 3);
+}
+
+.deskMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+.text1{
+    font-size: 2rem;
+    font-weight:200 ;
+    font-family: Poppins;
+    color: white;
+}
+
+.text1:hover{
+    border-bottom: solid gold;
+    color: gold;
+}
+
+.H{
+    color: gold;
+}
